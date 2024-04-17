@@ -19,3 +19,14 @@ Basic string operators and functions
 - 'LOWER()'   = gives a lower case string
 - 'UPPER()'   = gives an upper case string
 - 'LENGTH()'  = gives number of characters in a string
+
+Comparison math operators:
+- '='            = are the values equal?
+- '<>' or '!='   = are the values not equal to each other?
+- '>'            = is the value on left greater?
+- '<'            = is the value on left less?
+- '>='           = is the value on left greater or equal to?
+- '<='           = is the value on left lesser or equal to?
+- 'IN'           = is the value present in the list?
+- 'BETWEEN'      = is the value between two other values?
+- 'NOT IN'       = is the value not present in the list?
