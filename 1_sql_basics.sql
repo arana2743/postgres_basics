@@ -21,3 +21,9 @@ VALUES
   ('Shanghai', 'China', 22125000, 4015),
   ('Sao Paulo', 'Brazil', 20935000, 3043);
 
+-- 3. how postgres run a select query with WHERE clause
+SELECT name, area FROM cities WHERE area > 4000;
+-- In above query the order in which postgres run is as below:
+-- 1. "FROM cities" -> is run first
+-- 2. "WHERE area > 4000" -> is run second once first is done
+-- 3. "SELECT name, area" -> is run third once second is done

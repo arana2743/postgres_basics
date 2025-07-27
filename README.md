@@ -28,5 +28,6 @@ Comparison math operators:
 - '>='           = is the value on left greater or equal to?
 - '<='           = is the value on left lesser or equal to?
 - 'IN'           = is the value present in the list?
-- 'BETWEEN'      = is the value between two other values?
+- 'BETWEEN'      = is the value between two other values 
+                    (inclusive of both lower and upper bounds?)
 - 'NOT IN'       = is the value not present in the list?
